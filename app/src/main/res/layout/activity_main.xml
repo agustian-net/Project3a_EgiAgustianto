@@ -8,11 +8,26 @@
 
     <ListView
         android:id="@+id/listNegara"
-        android:layout_width="397dp"
-        android:layout_height="588dp"
+        android:layout_width="396dp"
+        android:layout_height="534dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <TextView
+        android:id="@+id/LblPilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Salah Satu Negara Dibawah Ini :"
+        app:layout_constraintBottom_toTopOf="@+id/listNegara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
